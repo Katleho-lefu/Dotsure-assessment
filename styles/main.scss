@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bc: 220 13% 69%;
+  --b2: 220 17% 17%;
+}
+
+$bg_color: rgb(234, 234, 234);
