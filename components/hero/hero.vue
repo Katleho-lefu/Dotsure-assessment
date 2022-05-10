@@ -1,20 +1,25 @@
 <template>
   <div class="flex hero_bg">
-    <div class="text-left mx-5 hero_content">
+    <div class="text-left mx-5 lg:px-28 hero_content">
       <span class="text-5xl font-extrabold text-white">GOOSEBUMPS</span>
       <span class="text-3xl font-bold txt">COME STANDARD</span> <br>
-      <span class="text-sm font-light text-slate-300 tracking-[.10em]">
+      <span class="text-sm font-extralight text-gray-300 tracking-[.01em]">
         Discover the benefits of DRIVECLUB Trade-in and get a free vehicle
         evaluation.
       </span>
+      <Button class="mt-10" name="Contact us"/>
     </div>
   </div>
 </template>
 
 <script>
+import Button from "../button/button.vue"
+
 export default {
   name: 'Hero',
-  components: {},
+  components: {
+      Button
+  },
   props: {},
 }
 </script>
