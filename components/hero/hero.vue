@@ -26,7 +26,7 @@ export default {
 <style lang="scss" scoped>
 .hero_bg {
   background-image: url('@/assets/dotsure/hero-home.jpg');
-  min-height: 55vh;
+  min-height: 60vh;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
