@@ -1,126 +1,255 @@
 <template>
-  <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
-    <div class="md:flex md:justify-between">
+  <footer class="p-6 sm:p-6">
+    <div class="md:flex mt-5 md:justify-between">
       <div class="mb-6 md:mb-0">
-        <a href="https://flowbite.com" class="flex items-center">
-          <img
-            src="/docs/images/logo.svg"
-            class="mr-3 h-8"
-            alt="FlowBite Logo"
-          />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-        </span>
-         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-        >© 2022
-        <a href="https://flowbite.com" class="hover:underline">Flowbite™</a>.
-        All Rights Reserved.
-      </span>
+        <a href="https://flowbite.com" class="flex flex-col">
+          <span class="self-start mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="147.703" height="16" viewBox="0 0 147.703 16">
+              <g id="Group_20268" data-name="Group 20268" transform="translate(-120 -46.288)" opacity="0.87">
+                <path
+                  id="Path_15979"
+                  data-name="Path 15979"
+                  d="M9.126-36.622h-5.9v15.753h5.9c5.027,0,8.258-3.209,8.258-7.877C17.384-33.436,14.152-36.622,9.126-36.622ZM7.061-24.19v-9.156H8.879a4.214,4.214,0,0,1,4.6,4.6c0,2.895-1.705,4.555-4.6,4.555Zm24.325-7.316c0,1.234-.673,1.975-2.109,1.975H26.9v-3.9h2.379C30.713-33.436,31.387-32.673,31.387-31.506Zm-8.325-5.116v15.753H26.9v-5.947h.92l3.276,5.947h4.331l-3.635-6.238a4.585,4.585,0,0,0,3.5-4.555c0-2.738-1.93-4.959-5.79-4.959ZM41.216-20.869h3.837V-36.622H41.216Zm16.943-3.86-3.9-11.893H50.169l5.588,15.753h4.8l5.588-15.753H62.085ZM80.913-36.622H71.263v15.753h9.649v-3.074H75.1V-27.4h5.139v-2.962H75.1v-3.187h5.812ZM86.5-28.7a7.673,7.673,0,0,0,7.809,7.966,7.356,7.356,0,0,0,7.248-4.69H99.112a4.936,4.936,0,0,1-4.8,2.917c-3.276,0-5.722-2.379-5.722-6.194,0-3.837,2.446-6.216,5.722-6.216a4.921,4.921,0,0,1,4.8,2.94h2.446a7.362,7.362,0,0,0-7.248-4.735A7.711,7.711,0,0,0,86.5-28.7Zm21.61-7.809v15.641h7.518V-22.53h-5.475V-36.51Zm13.173,9.874c0,4.062,2.648,5.924,5.879,5.924s5.9-1.863,5.9-5.924V-36.51h-2.042v9.9c0,2.872-1.526,4.107-3.837,4.107s-3.86-1.234-3.86-4.107v-9.9h-2.042Zm27.6,1.369c0,1.705-1.212,2.715-3.231,2.715H142.04v-5.52h3.546C147.583-28.072,148.885-27,148.885-25.267Zm-.4-7.024c0,1.593-1.1,2.536-3.007,2.536H142.04v-5.072h3.389C147.426-34.827,148.481-33.84,148.481-32.291Zm2.446,7.226a3.9,3.9,0,0,0-3.1-3.86,3.66,3.66,0,0,0,2.738-3.613c0-2.177-1.661-3.972-4.959-3.972H140v15.641h5.834C149.064-20.869,150.927-22.709,150.927-25.065Z"
+                  transform="translate(116.776 83)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </span>
+          <span
+            class="text-xs font-thin text-gray-500 sm:text-center dark:text-gray-400 tracking-[.15em]"
+          >
+            © Driveclub. All Rights Reserved.
+          </span>
         </a>
       </div>
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          >
+            <svg
+              id="_043-facebook-1"
+              data-name="043-facebook-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="20"
+              viewBox="0 0 10 20"
+            >
+              <g id="Group_3666" data-name="Group 3666">
+                <path
+                  id="Path_1926"
+                  data-name="Path 1926"
+                  d="M134.25,6.875v-2.5a1.25,1.25,0,0,1,1.25-1.25h1.25V0h-2.5a3.75,3.75,0,0,0-3.75,3.75V6.875H128V10h2.5V20h3.75V10h2.5L138,6.875Z"
+                  transform="translate(-128)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          >
+            <svg
+              id="_034-instagram"
+              data-name="034-instagram"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+            >
+              <g id="Group_3668" data-name="Group 3668">
+                <g id="Group_3667" data-name="Group 3667">
+                  <path
+                    id="Path_1927"
+                    data-name="Path 1927"
+                    d="M13.75,0H6.25A6.251,6.251,0,0,0,0,6.25v7.5A6.251,6.251,0,0,0,6.25,20h7.5A6.251,6.251,0,0,0,20,13.75V6.25A6.251,6.251,0,0,0,13.75,0Zm4.375,13.75a4.38,4.38,0,0,1-4.375,4.375H6.25A4.38,4.38,0,0,1,1.875,13.75V6.25A4.38,4.38,0,0,1,6.25,1.875h7.5A4.38,4.38,0,0,1,18.125,6.25Z"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+              <g
+                id="Group_3670"
+                data-name="Group 3670"
+                transform="translate(5 5)"
+              >
+                <g id="Group_3669" data-name="Group 3669">
+                  <path
+                    id="Path_1928"
+                    data-name="Path 1928"
+                    d="M133,128a5,5,0,1,0,5,5A5,5,0,0,0,133,128Zm0,8.125A3.125,3.125,0,1,1,136.125,133,3.129,3.129,0,0,1,133,136.125Z"
+                    transform="translate(-128 -128)"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+              <g
+                id="Group_3672"
+                data-name="Group 3672"
+                transform="translate(14.709 3.959)"
+              >
+                <g id="Group_3671" data-name="Group 3671">
+                  <circle
+                    id="Ellipse_1015"
+                    data-name="Ellipse 1015"
+                    cx="0.666"
+                    cy="0.666"
+                    r="0.666"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          >
+            <svg
+              id="_013-twitter-1"
+              data-name="013-twitter-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24.615"
+              height="20"
+              viewBox="0 0 24.615 20"
+            >
+              <g id="Group_3673" data-name="Group 3673">
+                <path
+                  id="Path_1929"
+                  data-name="Path 1929"
+                  d="M24.615,50.368a10.521,10.521,0,0,1-2.908.8,5.018,5.018,0,0,0,2.22-2.789,10.085,10.085,0,0,1-3.2,1.222A5.046,5.046,0,0,0,12,53.048a5.2,5.2,0,0,0,.117,1.151,14.284,14.284,0,0,1-10.4-5.278,5.048,5.048,0,0,0,1.551,6.745,4.984,4.984,0,0,1-2.28-.622V55.1a5.07,5.07,0,0,0,4.043,4.958,5.037,5.037,0,0,1-1.323.166,4.462,4.462,0,0,1-.955-.086,5.094,5.094,0,0,0,4.715,3.515A10.14,10.14,0,0,1,1.208,65.8,9.453,9.453,0,0,1,0,65.735,14.207,14.207,0,0,0,7.742,68,14.264,14.264,0,0,0,22.1,53.64c0-.223-.008-.438-.018-.652A10.067,10.067,0,0,0,24.615,50.368Z"
+                  transform="translate(0 -48)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          >
+            <svg
+              id="_031-linkedin"
+              data-name="031-linkedin"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+            >
+              <g
+                id="Group_3675"
+                data-name="Group 3675"
+                transform="translate(0 6.25)"
+              >
+                <g id="Group_3674" data-name="Group 3674">
+                  <rect
+                    id="Rectangle_2184"
+                    data-name="Rectangle 2184"
+                    width="4.472"
+                    height="13.75"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+              <g
+                id="Group_3677"
+                data-name="Group 3677"
+                transform="translate(6.25 6.25)"
+              >
+                <g id="Group_3676" data-name="Group 3676">
+                  <path
+                    id="Path_1930"
+                    data-name="Path 1930"
+                    d="M170.4,160.161c-.048-.015-.092-.031-.143-.045s-.12-.025-.181-.035a4.008,4.008,0,0,0-.8-.081,6.214,6.214,0,0,0-4.806,2.629V160H160v13.75h4.473v-7.5s3.38-4.708,4.806-1.25v8.75h4.471v-9.279A4.459,4.459,0,0,0,170.4,160.161Z"
+                    transform="translate(-160 -160)"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+              <g id="Group_3679" data-name="Group 3679">
+                <g id="Group_3678" data-name="Group 3678">
+                  <circle
+                    id="Ellipse_1016"
+                    data-name="Ellipse 1016"
+                    cx="2.188"
+                    cy="2.188"
+                    r="2.188"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          >
+            <svg
+              id="_002-youtube"
+              data-name="002-youtube"
+              xmlns="http://www.w3.org/2000/svg"
+              width="29.091"
+              height="20"
+              viewBox="0 0 29.091 20"
+            >
+              <g id="Group_3680" data-name="Group 3680">
+                <path
+                  id="Path_1931"
+                  data-name="Path 1931"
+                  d="M27.855,81.927c-.789-1.4-1.645-1.662-3.389-1.76C22.724,80.049,18.344,80,14.549,80s-8.184.049-9.924.165c-1.74.1-2.6.356-3.395,1.762C.418,83.329,0,85.744,0,89.995v.015c0,4.233.418,6.665,1.231,8.053.8,1.4,1.653,1.658,3.393,1.776,1.742.1,6.124.162,9.925.162s8.175-.06,9.918-.16c1.744-.118,2.6-.373,3.389-1.776.82-1.387,1.235-3.82,1.235-8.053V90C29.091,85.744,28.676,83.329,27.855,81.927ZM10.909,95.455V84.545L20,90Z"
+                  transform="translate(0 -80)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <br /><br />
       <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
         <div>
-          <h2 class="mb-6 text-sm font-semiboldtext-gray-900 uppercase dark:text-white" >
-            Resources
+          <h2
+            class="mb-6 text-sm font-semiboldtext-gray-900 uppercase dark:text-white"
+          >
+            MODELS
           </h2>
-          <ul class="text-gray-600 dark:text-gray-400">
+          <ul class="text-xs text-gray-600 dark:text-gray-400">
             <li class="mb-4">
               <a href="https://flowbite.com" class="hover:underline">
-                Flowbite
+                LA FERRARI
               </a>
             </li>
             <li>
               <a href="https://tailwindcss.com/" class="hover:underline">
-              Tailwind CSS
+                MODEL S
               </a>
             </li>
           </ul>
         </div>
         <div>
           <h2
-            class="
-              mb-6
-              text-sm
-              font-semibold
-              text-gray-900
-              uppercase
-              dark:text-white
-            "
+            class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
           >
-            Follow us
+            MORE
           </h2>
-          <ul class="text-gray-600 dark:text-gray-400">
+          <ul class="text-xs text-gray-600 dark:text-gray-400">
             <li class="mb-4">
               <a
                 href="https://github.com/themesberg/flowbite"
                 class="hover:underline"
-                >Github</a
               >
+                HOME
+              </a>
             </li>
             <li>
-              <a href="https://discord.gg/4eeurUVvTy" class="hover:underline"
-                >Discord</a
-              >
+              <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">
+                CONTACT US
+              </a>
             </li>
           </ul>
         </div>
-
-      </div>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div class="sm:flex sm:items-center sm:justify-between">
-
-      <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-       
-        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path
-              fill-rule="evenodd"
-              d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </a>
-        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-          <svg
-            class="w-5 h-5"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path
-              d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-            ></path>
-          </svg>
-        </a>
-        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-          <svg
-            class="w-5 h-5"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </a>
-        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-          <svg
-            class="w-5 h-5"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </a>
       </div>
     </div>
   </footer>
@@ -133,4 +262,8 @@ export default {
 </script>
 
 <style scoped>
+
+footer {
+  background-color: rgb(34, 36, 39);
+}
 </style>
