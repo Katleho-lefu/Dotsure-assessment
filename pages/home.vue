@@ -1,7 +1,8 @@
 <template>
 <div>
   <Hero />
-  <Collage/>
+  <Collage car_model="MODEL S" car_image="car-2.jpg" reverse=false />
+  <Collage car_model="LA FERRARI" car_image="car-1.jpg" reverse=true />
 </div>
 
 </template>
