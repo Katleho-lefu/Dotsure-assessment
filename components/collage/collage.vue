@@ -6,7 +6,7 @@
         class="w-full h-96 lg:w-3/5 lg:h-96 border-y-2 border-y-white object-cover bg-center bg-no-repeat" alt=""
       />
       <div
-        class="
+        class= "
           w-full
           px-12
           py-12
@@ -23,7 +23,9 @@
         <span class="text-3xl font-extrabold lg:text-4xl text-white">{{
           car_model
         }}</span>
-        <a href="https://flowbite.com" class="mt-3 txt-clr"> LEARN MORE > </a>
+        <label class="mt-3 txt-clr modal-button hover:cursor-pointer" for="my-modal-5"> 
+          LEARN MORE >
+        </label>
       </div>
     </div>
   </div>
@@ -60,26 +62,30 @@
         <span class="text-3xl font-extrabold lg:text-4xl text-white">{{
           car_model
         }}</span>
-        <a href="https://flowbite.com" class="mt-3 txt-clr"> LEARN MORE > </a>
+        <label class="mt-3 txt-clr modal-button hover:cursor-pointer" for="my-modal-5"> 
+          LEARN MORE >
+        </label>
+
+        <LearnModal/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import LearnModal from '@/components/modals/learn-modal.vue'
+
 export default {
   name: 'Collage',
-  components: {},
+  components: {
+    LearnModal
+  },
   props: {
     car_model: String,
     car_image: String,
     reverse: String,
   },
-  methods: {
-  mounted() {
-    console.log(`the component is now mounted.`)
-  }
-} 
+  methods: {} 
 }
 </script>
 
